@@ -1,3 +1,3 @@
 FROM elasticsearch:latest
 
-RUN elasticsearch/bin/plugin -install mobz/elasticsearch-head
+RUN /usr/share/elasticsearch/bin/plugin install mobz/elasticsearch-head
